@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 3rem auto 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
